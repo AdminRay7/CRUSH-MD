@@ -1,0 +1,23 @@
+{
+  "name": "crush-ray-bot",
+  "version": "2.1.1",
+  "description": "CRUSH RAY - WhatsApp Bot Pairing System with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeySockets/baileys": "^6.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "mongodb": "^6.5.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pino": "^8.17.2",
+    "nodemon": "^3.0.3"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "mongodb", "pairing-code"],
+  "author": "RYAN KE",
+  "license": "MIT"
+}
